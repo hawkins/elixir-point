@@ -47,3 +47,9 @@ defmodule Point do
     Map.put(point, flag, value)
   end
 end
+
+defimpl String.Chars, for: Point do
+  def to_string(p) do
+    Point.print(p)
+  end
+end

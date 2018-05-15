@@ -30,4 +30,9 @@ defmodule PointTest do
     p = Point.set(p, :x, 2)
     assert p.x == 2
   end
+
+  test "can treat as string" do
+    p = %Point{x: 0, y: 1}
+    assert to_string(p) == "(0, 1)"
+  end
 end
