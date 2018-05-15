@@ -24,4 +24,10 @@ defmodule PointTest do
     p = Point.set_y(p, 2)
     assert p.y == 2
   end
+
+  test "can set generically" do
+    p = %Point{x: 0, y: 1}
+    p = Point.set(p, :x, 2)
+    assert p.x == 2
+  end
 end
