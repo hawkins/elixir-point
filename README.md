@@ -1,21 +1,5 @@
 # Point
 
-**TODO: Add description**
+This repo houses my exploration into Elixir. I decided to try implementing a Point class in Elixir, hoping it would naturally lead me to think in Elixir style and understand the language's design patterns and constructs.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `point` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:point, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/point](https://hexdocs.pm/point).
-
+> This project is a work in progress, don't worry - I'll write more about it when there's more to say 😃
